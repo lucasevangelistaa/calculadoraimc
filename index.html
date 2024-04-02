@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Calculadora de IMC</h1>
+            <div class="inputs">
+                <label for="altura">Altura (m):</label><br>
+                <input type="number" name="altura" id="altura" step="0.01" placeholder="Altura (ex: 1,70)">
+            </div>
+            <div class="inputs">
+                <label for="peso">Peso (Kg):</label><br>
+                <input type="number" name="peso" id="peso" placeholder="Peso (ex: 60,5)">
+            </div>
+            <button onclick="calcularIMC()">Calcular</button>
+            <section id="resultado">
+                Sua situação aparecerá aqui.
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Desenvolvido por</p>
+            <a href="http://instagram.com/_lucode" target="_blank"><img src="1.png" alt="Agência Lucode"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
